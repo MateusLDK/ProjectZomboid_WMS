@@ -1,0 +1,33 @@
+module WMS
+{
+    imports
+    {
+        Base
+    }
+
+    item WMSMetalShelf
+    {
+        Type = Container,
+        DisplayName = WMS Metal Shelf,
+        Icon = MetalShelves,
+        Weight = 20,
+        Capacity = 80,
+        IsMoveable = true,
+        CanBeBarricaded = false,
+        OpenSound = containeropen,
+        CloseSound = containerclose,
+        CustomContextMenu = true,
+    }
+
+    item WMSComputer
+    {
+        Type = Moveable,
+        DisplayName = WMS Computer Terminal,
+        Icon = Computer,
+        Weight = 10,
+        IsMoveable = true,
+        CustomContextMenu = true,
+        IsThumpableElectric = true,
+        PowerConsumption = 5.0,
+    }
+}

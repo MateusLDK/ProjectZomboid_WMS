@@ -1,0 +1,13 @@
+module WMS
+{
+    recipe Convert Metal Shelf to WMS Shelf
+    {
+        Base.LargeMetalShelves,
+        Base.ElectronicsScrap,
+        Base.ElectronicsScrap,
+        Result: WMS.WMSMetalShelf,
+        Time:30.0,
+        Category: Survivalist,
+        OnCreate: WMS_Data.onWMSCreated,
+    }
+}
