@@ -1,7 +1,3 @@
-Here's an improved and more detailed description for your **PZ_WMS** mod:
-
----  
-
 # **PZ_WMS – Warehouse Management System for Project Zomboid**  
 *A smart storage solution to organize, track, and manage your survival supplies efficiently.*  
 
@@ -54,7 +50,7 @@ The connected computer provides **two main screens**:
 ---  
 
 ## **Future Improvements (Optional Ideas)**  
-- **Remote Access:** Portable handheld terminal (like a PDA) to check WMS from anywhere ().
+- **Remote Access:** Portable handheld terminal (like a PDA) to check WMS from anywhere.
 - **Alerts & Notifications:** Low stock warnings for critical items.  
 
 ---  
